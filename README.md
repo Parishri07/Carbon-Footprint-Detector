@@ -2,13 +2,12 @@
 
 A Streamlit web application to estimate and visualize individual carbon footprints using machine learning, custom charts, and actionable reduction tips.
 
----
 
 ## Purpose
 
 This project aims to help common people understand the carbon impact they are making through their daily activities. It provides personalized suggestions that can be easily adopted in their daily routine without any out-of-the-way efforts, supporting a transition towards a sustainable future.
 
----
+
 
 ## Table of Contents
 
@@ -20,7 +19,7 @@ This project aims to help common people understand the carbon impact they are ma
 - [Model & Data Sources](#model--data-sources)
 - [Conclusion](#conclusion)
 
----
+
 
 ## Features
 
@@ -30,7 +29,7 @@ This project aims to help common people understand the carbon impact they are ma
 - Built-in machine learning model for predictions.
 - Modern UI with custom styling.
 
----
+
 
 ## Installation
 
@@ -57,7 +56,7 @@ This project aims to help common people understand the carbon impact they are ma
     pip install -r requirements.txt
     ```
 
----
+
 
 ## Usage
 
@@ -69,7 +68,7 @@ This project aims to help common people understand the carbon impact they are ma
 
 2. **Open your browser** and go to [http://localhost:8501](http://localhost:8501) (auto-opens by default).
 
----
+
 
 ## Dataset Creation
 
@@ -84,7 +83,7 @@ The synthetic dataset is generated in the `Creating_Dataset.ipynb` notebook. It 
 
 The resulting data includes a calculated carbon footprint value (`carbon_footprint_kgCO2_per_year`). This dataset is saved as `synthetic_carbon_footprint.csv` and used for model training.
 
----
+
 
 ## Model Training
 
@@ -97,7 +96,6 @@ Model training is performed within the `Running_Model.ipynb` notebook with the f
 - Evaluating model performance using mean absolute error and R² metrics.
 - Saving the trained model as `carbon_model.pkl` and feature columns as `model_columns.pkl` for use in the app.
 
----
 
 ## Model & Data Sources
 
